@@ -12,10 +12,10 @@ Class Sendemail extends CI_Model
 			$txt .= "<p>Terima Kasih Telah Menghubungi Kami, Tetap Berlanggangan Dengan kami Rekomendasikan kepada Teman Dan Kerabat untuk mendapatkan Harga dan pelayanan Terbaik dari kami</p></div>";
 			$config = Array(
 					$config['protocol'] = 'smtp',
-					$config['smtp_host'] = 'ssl://smtp.hostinger.co.id',
+					$config['smtp_host'] = '',
 					$config['smtp_port'] = 587,
-					'smtp_user' => 'info@akbargrup.id', // change it to yours
-					'smtp_pass' => 'infoAkbargrup1234', // change it to yours
+					'smtp_user' => '', // change it to yours
+					'smtp_pass' => '', // change it to yours
 					'mailtype' => 'html',
 					'newline'  => "\r\n",
 					'charset' => 'iso-8859-1',
@@ -59,10 +59,10 @@ Class Sendemail extends CI_Model
                     $txt .= "<p>Ada Pengunjung Website Menghubungi Akbargrup Mohon Segera Di respond ..!</p></div>";
                     $config = Array(
                             $config['protocol'] = 'smtp',
-                            $config['smtp_host'] = 'ssl://smtp.hostinger.co.id',
+                            $config['smtp_host'] = '',
                             $config['smtp_port'] = 587,
-                            'smtp_user' => 'info@akbargrup.id', // change it to yours
-                            'smtp_pass' => 'infoAkbargrup1234', // change it to yours
+                            'smtp_user' => '', // change it to yours
+                            'smtp_pass' => '', // change it to yours
                             'mailtype' => 'html',
                             'newline'  => "\r\n",
                             'charset' => 'iso-8859-1',
