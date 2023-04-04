@@ -55,7 +55,7 @@ class Chatboot extends CI_Controller {
 						'email'=> $this->input->post('email'),
 						'telpon'=> (string)$this->input->post('telpon')
 					);
-				$this->sendemail->send($this->input->post('email'),$this->input->post('nama'),"Layanan Customer Care Akbar Grup");
+// 				$this->sendemail->send($this->input->post('email'),$this->input->post('nama'),"Layanan Customer Care Akbar Grup");
 				$this->chat_send_marketing($id,$date);
 				$this->session->set_userdata('akbarId', $cookie);	
 				$arr['nama']=$this->input->post('nama');
